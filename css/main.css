@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home {
+    background-color: aliceblue;
+}
+.home .nav {
+    background-color: rgba(2, 6, 248, 0.5);
+
+    overflow: auto;
+}
+.home .nav h1 {
+    float: left;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pirata One', cursive;
+margin: 2px 20px;
+    
+}
+.home .nav h1 span {
+    color: gold;
+    margin-left: 20px;
+    
+}
+.home .nav ul {
+list-style-type: none;
+}
+.home .nav ul li {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    transition: 2s ease-out;
+   
+
+}
+.home .nav ul li:hover a{
+    color: gold;
+    
+}
+.home .nav ul li a {
+    text-decoration: none;
+    color: aliceblue
+    
+}
+/*=====end nav====*/
+.home .continer {
+    width: 90%; 
+    margin: auto;
+    background-color: aliceblue
+}
+.home .continer .imgs .main-img {
+    width: 100%;
+    height: 600px;
+    
+}
+.home .continer .imgs .img {
+    width: 16%;
+    height: 200px;
+    margin: 3px 6.1px 3px 2px;
+}
+.home .continer .topics{
+    
+}
+.home .continer .topics .a,.b,.c {
+    width: 33%;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+
+} 
+.home .continer .topics .a h2 {
+    font-size: 35px;
+    position: relative;
+    top: -60px;
+    color: gold;
+}
+.home .continer .topics .b h2 {
+    font-size: 35px;
+    color: gold;
+}
+.home .continer .topics .c h2 {
+    font-size: 35px;
+    color: gold;
+}
+.home .continer .topics .a img {
+   width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    top: -65px;
+}
+.clear {
+    clear: both;
+}
+.home .continer .topics .b img {
+    width: 50px;
+     height: 50px;
+     float: left;
+     margin-right: 10px;
+ }
+ .home .continer .topics .c img {
+    width: 50px;
+     height: 50px;
+     float: left;
+     margin-right: 10px;
+ }
+ .home .continer .topics .a p {
+     position: relative;
+     top: -10px;
+     right: -70px;
+     overflow: auto;
+     text-align: center;
+     width: 70%;
+     font-size: large;
+
+ }
+ .home .continer .topics .b p {
+     margin: 20px;
+     text-align: center;
+     width: 70%;
+     position: relative;
+     right: -70px;
+     font-size: large;
+
+ }
+ .home .continer .topics .c p {
+     margin: 20px;
+     text-align: center;
+     width: 70%;
+     position: relative;
+     right: -70px;
+     font-size: large;
+
+ }
+ .home .continer .topics .a a {
+     text-decoration: none;
+     position: relative;
+     right: -205px;
+     top: 70px;
+     background-color: rgba(117, 2, 248, 0.966);
+     padding: 20px 50px;
+     color: gold;
+     transition: all 2s;
+     
+     
+
+ }
+ .home .continer .topics .a a:hover{
+     background-color: gold;
+     color: aliceblue;
+
+ }
+ .home .continer .topics .b a{
+    text-decoration: none;
+    position: relative;
+    right: -205px;
+    top: 70px;
+    background-color: rgba(117, 2, 248, 0.966);
+    padding: 20px 50px;
+    color: gold;
+    transition: all 2s;
+ }
+ .home .continer .topics .b a:hover{
+    background-color: gold;
+    color: aliceblue;
+ }
+ .home .continer .topics .c a{
+    text-decoration: none;
+    position: relative;
+    right: -205px;
+    top: 70px;
+    background-color: rgba(117, 2, 248, 0.966);
+    padding: 20px 50px;
+    color: gold;
+    transition: all 2s;
+      
+ }
+ .home .continer .topics .c a:hover{
+    background-color: gold;
+    color: aliceblue;
+ }
+ /*=======end topics=======*/
+ .home .continer .recent-work .line {
+     width: 100%;
+     height: 10px;
+     background-color: rgba(117, 2, 248, 0.966);
+     position: relative;
+     top: 35px; 
+ }
+ .home .continer .recent-work h2 {
+     padding: 20px 50px;
+     width: 200px;
+     height: 50px;
+     background-color: aliceblue;
+     color: gold;
+     font-size: 35px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     position: relative;
+     top: -10px; 
+     left: 35px;
+     text-align: left;
+ }
+ .home .continer .recent-work .a , .b, .c, .d { 
+    display: inline-block;
+  
+   
+
+ }
+ .home .continer .recent-work .a {
+     /*position: relative;
+     right: -70px;*/
+     transition: all 2s;
+     padding: 20px;
+     width: 22.5%;
+
+     height: 300px;
+
+ }
+ .home .continer .recent-work .a:hover {
+     background-color:rgba(117, 2, 248, 0.966) ;
+
+ }
+ .home .continer .recent-work .a h3 { 
+     color: gold;
+     font-size: 35px;
+     margin: auto;
+     
+     
+
+ }
+ .home .continer .recent-work .b {
+   /* position: relative;
+    right: -100px;*/
+    padding: 20px;
+     width: 22.5%;
+     transition: all 2s;
+     height: 300px;
+    
+}
+.home .continer .recent-work .b:hover {
+    background-color:rgba(117, 2, 248, 0.966) ;
+
+}
+ .home .continer .recent-work .b h3 { 
+    color: gold;
+    font-size: 35px;
+    margin: auto;
+    
+    
+
+}
+.home .continer .recent-work .c {
+   /* position: relative;
+    right: -110px;*/
+    padding: 20px;
+     width: 22.5%;
+     height: 300px;
+     transition: all 2s;
+}
+.home .continer .recent-work .c img {
+    width: 275px;
+    height: 183px;
+}
+.home .continer .recent-work .c:hover {
+    background-color:rgba(117, 2, 248, 0.966) ;
+
+}
+.home .continer .recent-work .c h3 { 
+    color: gold;
+    font-size: 35px;
+    margin: auto;
+    
+    
+
+}
+.home .continer .recent-work .d {
+   /* position: relative;*/
+    padding: 20px;
+     width: 22%;
+     height: 300px;
+     transition: all 2s;
+}
+.home .continer .recent-work .d:hover {
+    background-color:rgba(117, 2, 248, 0.966) ;
+
+}
+.home .continer .recent-work .d h3 { 
+    color: gold;
+    font-size: 35px;
+    margin: auto;
+    
+    
+
+}
+/*===========end recent-work ============*/
+.home .footer .contant {
+    background-color: rgba(117, 2, 248, 0.966);
+    width: 90%;
+    float: left;
+    height: 400px;
+    
+
+}
+.home .footer .contant .b {
+    position: relative;
+    top: -60px;
+}
+.home .footer .contant .c {
+    position: relative;
+    top: -75px;
+}
+.home .footer .contant div {
+    display: inline-block;
+    width: 33%;
+    
+
+}
+.home .footer .contant div h3 {
+    font-size: 35 px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 20px;
+    color: gold;
+
+}
+
+
+.home .footer .contant div p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin: 20px;
+    
+}
+
+.home .footer .style1{
+    width: 5%;
+    height: 400px;
+    background-color:rgba(117, 2, 248, 0.658) ;
+    float: left;
+    position: relative;
+    left: -10px;
+
+}
+.home .footer .style2{
+    width: 5%;
+    height: 400px;
+    background-color:rgba(117, 2, 248, 0.658) ;
+    float: left;
+    position: relative;
+    right: -10px;
+
+}
+/*========end footer====*/
+/*=========end project=====*/
